@@ -14,6 +14,24 @@ This repository contains structured demo projects covering fundamental to advanc
 
 ### Installation
 
+#### Quick Setup (Recommended)
+
+Run the automated setup script:
+
+**On macOS/Linux:**
+```bash
+./setup.sh
+```
+
+**On Windows:**
+```batch
+setup.bat
+```
+
+Then edit `.env` and add your OpenAI API key.
+
+#### Manual Setup
+
 1. Clone the repository:
 ```bash
 git clone https://github.com/Anim-101/try-lang.git
@@ -36,6 +54,8 @@ pip install -r requirements.txt
 cp .env.example .env
 # Edit .env and add your API keys
 ```
+
+For detailed setup instructions, see [QUICKSTART.md](QUICKSTART.md).
 
 ## Demo Projects
 
