@@ -8,6 +8,8 @@ This repository contains a progressive series of demo projects to help you learn
 
 ## 🚀 Quick Start
 
+Want to get started immediately? Check out [QUICKSTART.md](QUICKSTART.md) for a 5-minute setup guide!
+
 ### Prerequisites
 - Python 3.8 or higher
 - OpenAI API key (or other LLM provider key)
@@ -20,21 +22,21 @@ This repository contains a progressive series of demo projects to help you learn
    cd try-lang
    ```
 
-2. **Create a virtual environment**
+2. **Run the setup script**
    ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   python setup.py
    ```
 
-3. **Install dependencies**
+3. **Configure your API key**
    ```bash
-   pip install -r requirements.txt
+   # Edit .env and add your OpenAI API key
+   # Get your key from: https://platform.openai.com/api-keys
    ```
 
-4. **Configure environment variables**
+4. **Run your first demo**
    ```bash
-   cp .env.example .env
-   # Edit .env and add your API keys
+   cd demos/01_basic_llm
+   python example.py
    ```
 
 ## 📖 Learning Path
